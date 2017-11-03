@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<nav>
+				<a href="index.html">
+					Home
+				</a>
+				|
+				<a href="aboutme.html">
+					About Me
+				</a>
+				|
+				<a href="project.html">
+					Projects
+				</a>
+			</nav>
+			<section>
+				<h3>Tic Tac Toe</h3>
+				<input type="button" value="Restart" />
+				<div id="board">
+					<div id="r1r1" onclick="turn('r1c1');" class="box"></div>
+					<div id="r1r2" onclick="turn('r1c2');" class="box"></div>
+					<div id="r1r3" onclick="turn('r1c3');" class="box"></div>
+					<div id="r2r1" onclick="turn('r2c1');" class="box"></div>
+					<div id="r2r2" onclick="turn('r2c2');" class="box"></div>
+					<div id="r2r3" onclick="turn('r2c3');" class="box"></div>
+					<div id="r3r1" onclick="turn('r3c1');" class="box"></div>
+					<div id="r3r2" onclick="turn('r3c2');" class="box"></div>
+					<div id="r3r3" onclick="turn('r3c3');" class="box"></div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

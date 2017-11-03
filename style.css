@@ -1,0 +1,74 @@
+body{
+background-color:pink;
+	color:green;
+}
+
+nav{
+	margin-bottom:20px;
+}
+
+nav a{
+	margin-right:5px;
+}
+
+a:link{
+	background-color:white;
+	color:green;
+}
+
+a:visited{
+	background-color:white;
+	color:green;
+}
+
+a:hover{
+	background-color:white;
+	color:pink;
+	font-size:16px;
+	font-weight:bolder;
+}
+
+img{
+	height:200px;
+}
+
+#container{
+	background-color:white;
+	margin:30px;
+	padding:25px;
+	border-radius:30px;
+	text-align:center;
+}
+
+#catBullet{
+	color:pink;
+	font-weight:bolder;
+}
+
+#blue{
+	color:purple;
+}
+
+ul{
+	list-style-position:inside;
+}
+
+/* Below is the code for Tic Tac Toe */
+
+#board{
+	width:330px;
+	height:330px;
+	border-style:solid;
+	border-width:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+}
+
+.box{
+	height:100px;
+	width:100px;
+	border-style:solid;
+	border-width:5px;
+	float:left;
+}
